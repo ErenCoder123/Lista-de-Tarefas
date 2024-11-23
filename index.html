@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        
+        <div class="input-section">
+            
+            <input id="tarefa" type="text" placeholder="Digite a tarefa">
+            <select id="prioritySelect" class="selecionar">
+                <option value="Alta">Alta</option>
+                <option value="Media">Media</option>
+                <option value="Baixa">Baixa</option>
+            </select>
+            <button onclick="adicionar()">Adicionar</button>
+        </div>
+
+        <h2>Pendentes</h2>
+
+        <ul id="relacionados">
+
+        </ul>
+        <div class="completed-tasks">
+            <h2>Concluídas</h2>
+            <ul id="completedTasks"></ul>
+        </div>
+        <div class="legenda">
+            <h3>Legenda das Prioridades</h3>
+            <p class="cor-alta">Alta</p>
+            <p class="cor-media">Média</p>
+            <p class="cor-baixa">Baixa</p>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

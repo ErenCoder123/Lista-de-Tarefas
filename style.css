@@ -1,0 +1,126 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(143, 4, 4, 0.74);
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    align-self: flex-end;
+}  
+
+h1, h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    margin: auto 0;
+    font-size: 16px;
+}
+
+.input-section{
+    text-align: center;
+}
+
+.input-section input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-radius: 8px;
+}
+
+.input-section button{
+    background-color: rgb(21, 255, 21);
+}
+
+
+
+.input-section button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(21, 255, 21);
+}
+
+/* .selecionar{
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+} */
+
+.legenda{
+    text-align: center;
+}
+
+.legenda p{
+    display: inline-block;
+}
+
+li p{
+    width: 100%;
+}
+
+li{
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    align-items: center;
+}
+
+li.Alta {
+    background-color: rgb(231, 130, 130);
+}
+
+li.Media {
+    background-color: yellow;
+}
+
+li.Baixa {
+    background-color: rgb(87, 184, 87);
+}
+
+.cor-alta{
+    padding: 10px 20px;
+    background-color: rgb(231, 131, 131);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px red;
+}
+
+.cor-media{
+    padding: 10px 20px;
+    background-color: yellow;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(41, 41, 41);
+    box-shadow: 0 0 20px yellow;
+    
+}
+
+.cor-baixa{
+    padding: 10px 20px;
+    background-color: rgb(87, 184, 87);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px green;
+}
